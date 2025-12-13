@@ -20,4 +20,7 @@ This project helps beginners understand **JavaScript operators**, **DOM manipula
 ## 🛠️ Technologies Used
 - **HTML** – Structure of the calculator  
 - **CSS** – Styling and layout  
-- **JavaScript** – Logic and operator handling  
+- **JavaScript** – Logic and operator handling
+
+## 📸 Preview
+<img width="724" height="679" alt="Screenshot 2025-12-13 115502" src="https://github.com/user-attachments/assets/847e552c-b9bb-4f44-8c74-3b7b476111c4" />
