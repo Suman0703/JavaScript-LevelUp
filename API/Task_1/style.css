@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.user {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
