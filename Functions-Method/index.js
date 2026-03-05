@@ -37,7 +37,7 @@ newFunc();
 
 
 //toString()
-
+//return the function code as string 
 function add(){
     let a = 9;
     let b = 5;
