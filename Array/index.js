@@ -20,3 +20,14 @@ name[3]="sonia"
 for ( i =0; i<=3; i++){
     document.write(name[i]+"\n");
 }
+
+//multidimentional array
+let numbers = [
+    [1, 2, 3],   // Row 0
+    [4, 5, 6],   // Row 1
+    [7, 8, 9]    // Row 2
+];
+
+console.log(numbers[0][1]); // Output: 2
+console.log(numbers[2][0]); // Output: 7
+

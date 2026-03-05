@@ -1,0 +1,23 @@
+# 🧮 Simple Calculator (HTML + CSS + JavaScript)
+
+A clean and responsive **Simple Calculator** built using **HTML, CSS, and JavaScript**.  
+This project helps beginners understand **JavaScript operators**, **DOM manipulation**, and **basic UI design**.
+
+---
+
+## ✨ Features
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
+- 🔢 Modulus  
+- 🚫 Division by zero handling  
+- 🎨 Modern dark-themed UI  
+- 📱 Responsive design  
+
+---
+
+## 🛠️ Technologies Used
+- **HTML** – Structure of the calculator  
+- **CSS** – Styling and layout  
+- **JavaScript** – Logic and operator handling  
