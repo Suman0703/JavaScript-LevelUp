@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Task Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>Smart Task Manager</h1>
+            <p>Manage your tasks efficiently</p>
+        </header>
+
+        <!-- Task Input -->
+        <section class="task-input">
+            <input 
+                type="text" 
+                id="taskInput" 
+                placeholder="Enter a new task..."
+                autocomplete="off"
+            >
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <!-- Filters -->
+        <section class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </section>
+
+        <!-- Task List -->
+        <section class="task-list">
+            <ul id="taskList">
+                <!-- Tasks will be rendered here by JS -->
+            </ul>
+        </section>
+
+        <!-- Counters -->
+        <section class="counters">
+            <span>Total: <strong id="totalCount">0</strong></span>
+            <span>Completed: <strong id="completedCount">0</strong></span>
+            <span>Pending: <strong id="pendingCount">0</strong></span>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
